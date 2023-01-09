@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Work Sans', sans-serif;
+
+
+}
+
+
+/* style header part here..  */
+.head {
+    background-image: url("images/banner/banner2.png");
+    height: 800px;
+    align-items: center;
+
+}
+
+.head-title {
+    margin-left: 800px;
+    /* margin-top: 200px; */
+    /* top: 150px; */
+}
+
+
+.title {
+    margin-right: 100px;
+    font-weight: 700;
+    font-size: 65px;
+    color: #151414;
+    text-align: right;
+}
+
+.head-discription {
+    margin-left: 876px;
+    margin-top: 20px;
+}
+
+.discription {
+    margin-right: 100px;
+    font-weight: 400;
+    font-size: 16px;
+
+    color: #444343;
+    text-align: right;
+}
+
+.head-btn {
+    margin-left: 1150px;
+    margin-top: 30px;
+    /* margin-right: 30px; */
+
+
+}
+
+.btn {
+    padding: 20px 21px 25px 25px;
+    color: #FFFFFF;
+    background: #F15B22;
+    border-radius: 5px;
+}
+
+/* My failures of previous year Section  */
+
+.previous-year {
+    display: flex;
+    gap: 80px;
+    margin-top: 130px;
+}
+
+.previous-year-pic {
+    background-image: url("images/person.png");
+    width: 569px;
+    height: 723.3px;
+
+}
+.ul{
+    /* list-style-type: "#"; */
+    list-style-type: circle;
+}
+.previous-year-items {
+    width: 416px;
+    height: 400px;
+}
+
+.previous-year-title {
+    margin-top: 250px;
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+
+.previous-year-discripation {
+    margin-bottom: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+}
+
+.previous-year-discripation--ilems {
+    margin-left: 10px;
+}
+
+.previous-year-discripation--ilem {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+}
+
+
+/* My Plans Section styles here..  */
+.plan {
+    margin-left: 200px;
+    margin-top: 150px;
+    margin-right: 190px;
+    width: 1141px;
+    height: 299.96px;
+}
+
+.plan-title {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.plans {
+    display: flex;
+    gap: 20px;
+}
+
+/* .plans-logo{
+    width: 93px;
+height: 93px;
+} */
+
+.positive-motivation {
+    margin-left: 200px;
+    width: 1140px;
+    height: 300px;
+    background-image: url("images/watch.png");
+    /* background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%); */
+}
+
+.motivation {
+    margin-left: 50px;
+    
+}
+
+/* .motivation h1{
+    margin-top: 150px;
+} */
+.motivation-title {
+    margin-top: 100px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.motivation-btn {
+    margin-top: 100px;
+    color: #F15B22;
+    border-radius: 5px;
+    width: 160px;
+    height: 64px;
+    left: 294px;
+    top: 2393.3px;
+}
+/* my choces section  */
+
+.blogs-title{
+    font-size: 50px;
+    font-weight: bold;
+    padding: 10px;
+}
+.blog-box{
+    text-align: center;
+    margin-top:30px;
+}
+.description-blog{
+    font-size:22px;
+    width: 50%;
+    margin: auto;
+}
+
+
+.blog{
+    width:350px;
+    height: 430px;
+    background:white;
+    box-shadow: 4px 4px 8px gray;
+    border-radius:10px;
+}
+.blog-img{
+    width:150px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+.blog-text{
+    padding: 15px;
+}
+.blog-title{
+    font-size:24px;
+    font-weight: bold;
+    color: rgb(54, 53, 53);
+}
+.blog-description{
+    font-size:18px;
+    color: rgb(76, 72, 72);
+    margin-top: 15px;
+}
+.blogs{
+    margin-top: 35px;
+    padding:30px;
+    display: flex;
+    justify-content: space-evenly ;
+    align-items:center;
+}
+
+
+/* footer section here..  */
+
+.footer{
+    margin-top: 100px;
+    display: flex;
+    gap: 250px;
+    color: #F8F8F8;
+    background: #151414;
+    width: 1600px;
+    height: 500px;
+    left: 0px;
+}
+.future{
+    width: 485px;
+    height: 317px;
+    margin-left: 250px;
+    margin-top: 130px;
+}
+.future-discription{
+    margin-top: 20px;
+}
+.future-discription-text{
+
+color: #FFFFFF;
+}
+.phone{
+    margin-bottom: 15px;
+}
+.future-logos{
+    width: 43px;
+height: 42px;
+}
+.future-logo{
+    margin-top: 20px;
+}
+.subscribe{
+    margin-top: 130px;
+}
+.subscribe-mail{
+    margin-top: 20px;
+    
+}
+.subscribe-btn{
+    margin-top: 20px;
+}
+.subscribe-btns{
+    width: 100px;
+    height: 44px;
+    color: #F15B22;
+}
